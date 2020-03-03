@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+
+body {
+    background-image: url(assets/freedom.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #47474D;
+}
+
+h1 {
+    text-transform:uppercase;
+    text-align: center;
+    font-family: "Spartan";
+    font-weight: 100;
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10% 10% 0 10%;
+    line-height: 4rem;
+    
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    position: relative;
+    bottom: -5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 2rem;
+}
+
+li {
+    display: inline;
+    font-family: "Spartan";
+    font-weight: 800;
+}
+
+a {
+    color: #47474D;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+a:hover {
+    color:aquamarine;
+}
